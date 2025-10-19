@@ -120,10 +120,22 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="hal-library\Clock.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal-library\Clock.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="hal-library\GpioClass.cpp">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="hal-library\GpioClass.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal-library\Usart.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hal-library\Usart.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.cpp">
